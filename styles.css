@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header{
+    background-color: white;
+    padding: 30px;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/10/10/19/leaves-4754980_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.child{
+    background-color: white;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    width:230px;
+    height:350px;
+    padding: 30px;
+}
+
+.child1{
+    align-self: flex-start;
+}
+
+.child4{
+    align-self: flex-end;
+}
+
+img{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 20px;
+}
+
+.text1{
+    background-color: rgb(103, 136, 234);
+}
+
+.text2{
+    background-color: rgb(247, 210, 88);
+}
+
+.text3{
+    background-color: rgb(194, 79, 184);
+}
+
+.text4{
+    background-color: rgb(194, 79, 184);
+}
+
+.icon{
+    padding: 5px;
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.para{
+    color: grey;
+}
+
+p{
+    padding:12px;
+}
